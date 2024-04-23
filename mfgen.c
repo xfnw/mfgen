@@ -89,6 +89,10 @@ void generate_dtmf(char digit, double duration) {
       freq1 = 697;
       freq2 = 1477;
       break;
+    case 'A':
+      freq1 = 697;
+      freq2 = 1633;
+      break;
     case '4':
       freq1 = 770;
       freq2 = 1209;
@@ -100,6 +104,10 @@ void generate_dtmf(char digit, double duration) {
     case '6':
       freq1 = 770;
       freq2 = 1477;
+      break;
+    case 'B':
+      freq1 = 770;
+      freq2 = 1633;
       break;
     case '7':
       freq1 = 852;
@@ -113,6 +121,10 @@ void generate_dtmf(char digit, double duration) {
       freq1 = 852;
       freq2 = 1477;
       break;
+    case 'C':
+      freq1 = 852;
+      freq2 = 1633;
+      break;
     case '*':
       freq1 = 941;
       freq2 = 1209;
@@ -124,6 +136,10 @@ void generate_dtmf(char digit, double duration) {
     case '#':
       freq1 = 941;
       freq2 = 1477;
+      break;
+    case 'D':
+      freq1 = 941;
+      freq2 = 1633;
       break;
     default:
       return;
